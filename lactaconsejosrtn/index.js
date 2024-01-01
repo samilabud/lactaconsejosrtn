@@ -2,7 +2,7 @@ const launchApp = (deepLink = "", fallBack = "") => {
   var now = new Date().valueOf();
   setTimeout(function () {
     window.location = fallBack;
-  }, 10000);
+  }, 1000);
   window.location = deepLink;
 };
 
